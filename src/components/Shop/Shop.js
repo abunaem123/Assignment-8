@@ -19,6 +19,11 @@ const Shop = () => {
         const deleteItem = [];
         setCart(deleteItem)
     }
+    const chooseButton = () => {
+        const carts = cart[Math.floor(Math.random() * cart.length)];
+        const randomProduct = [carts];
+        setCart(randomProduct);
+    }
     return (
         <div className='shop-container'>
             <div className="product-container row row-cols-1 row-cols-md-3 g-4 p-4">
@@ -45,7 +50,7 @@ const Shop = () => {
                     // </div>
                 )}
                 <div className='d-flex flex-column'>
-                    <button className='m-2 border border-3 border-dark'>Choose 1 for Me </button>
+                    <button onClick={chooseButton} className='m-2 border border-3 border-dark'>Choose 1 for Me </button>
                     <button onClick={deleteButton} className='m-2 border border-3 border-dark'>Choose Again </button>
                 </div>
                 {/* <button >Buy One</button>
