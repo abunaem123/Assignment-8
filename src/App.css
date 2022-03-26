@@ -101,4 +101,6 @@
   }
 }
 
-
+.accordion-body{
+  text-align: left;
+}
