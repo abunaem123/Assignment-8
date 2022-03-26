@@ -1,0 +1,56 @@
+[
+    {
+        "img": "images/phone1.jpg",
+        "name": "Galaxy S22 5G",
+        "price": 500,
+        "id": "i07"
+    },
+    {
+        "img": "images/phone2.jpg",
+        "name": "Galaxy S22+ 5G",
+        "price": 600,
+        "id": "i08"
+    },
+    {
+        "img": "images/phone3.jpg",
+        "name": "Galaxy S21 FE 5G",
+        "price": 650,
+        "id": "i09"
+    },
+    {
+        "img": "images/phone4.jpg",
+        "name": "Galaxy A13 5G",
+        "price": 1100,
+        "id": "i12"
+    },
+    {
+        "img": "images/phone5.jpg",
+        "name": "Galaxy M32 5G",
+        "price": 1000,
+        "id": "s21"
+    },
+    {
+        "img": "images/phone6.jpg",
+        "name": "Galaxy Z Flip3 5G",
+        "price": 950,
+        "id": "s22"
+    },
+    {
+        "img": "images/phone7.jpg",
+        "name": "Galaxy A52s 5G",
+        "price": 250,
+        "id": "a03s"
+    },
+    {
+        "img": "images/phone8.jpg",
+        "name": "Galaxy Z Fold3 5G",
+        "price": 800,
+        "id": "s21u"
+    },
+    {
+        "img": "images/phone9.jpg",
+        "name": "Galaxy A03s",
+        "price": 400,
+        "id": "s400"
+    }
+]

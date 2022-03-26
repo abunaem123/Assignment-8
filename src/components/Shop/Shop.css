@@ -1,0 +1,26 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+/* .product-container{
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    justify-items: center;
+} */ */
+.cart-container{
+    padding: 10px 20px;
+    margin-top: 10px;
+    height: 500px;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .shop-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
