@@ -36,7 +36,6 @@ const Shop = () => {
             </div>
             <div className="cart-container bg-light p-4">
                 <h4>Order Summary</h4>
-                {/* <p>Selected Items: {cart.length}</p> */}
                 {cart.map((item) =>
                     <div key={item.id} className='d-flex align-items-center p-2'>
                         <div className='m-2 p-2 border bg-light rounded-circle'>
@@ -44,18 +43,11 @@ const Shop = () => {
                         </div>
                         <h6>{item.name}</h6>
                     </div>
-                    // <div>
-                    //     <img src={item.img} alt="" />
-                    //     <p key={item.id}>{item.name}</p>
-                    // </div>
                 )}
                 <div className='d-flex flex-column'>
                     <button onClick={chooseButton} className='m-2 border border-3 border-dark'>Choose 1 for Me </button>
                     <button onClick={deleteButton} className='m-2 border border-3 border-dark'>Choose Again </button>
                 </div>
-                {/* <button >Buy One</button>
-            <br />
-            <button onClick={deleteButton} className='mt-2'>Choose Again</button> */}
             </div>
         </div >
     );

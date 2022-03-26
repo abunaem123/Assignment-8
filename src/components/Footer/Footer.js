@@ -12,13 +12,10 @@ const Footer = () => {
                 <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div className="accordion-body">
                         <p className='ans-p'>
-                            <strong>React is a very popular JavaScript library.React works in declarative code.</strong>
-                            Props:Props are immutable.
-                            state:state are mutable.
-                            props:you can pass properties from parent components.
-                            state:you can define states in the component itself.
-                            props:the state is set and updated by the object.
-                            state:determine the ciew upon creation,and then they remain static.</p>
+                            <strong>
+                                React is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications.</strong>
+                            It's used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components.React calls function directly with the assigned props and if it is a class React Creates a new instance of the class and calls its render method.
+                        </p>
                     </div>
                 </div>
             </div>
